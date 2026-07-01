@@ -27,7 +27,7 @@ This repository documents my journey in Data Structures and Algorithms using Pyt
 
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
-| Arrays              | 0               |
+| Arrays              | 3               |
 | Strings             | 0               |
 | Linked Lists        | 0               |
 | Stacks              | 0               |
