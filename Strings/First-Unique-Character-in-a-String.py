@@ -1,6 +1,13 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        for i in range(len(s)):
-            if s.count(s[i]) == 1:
-                return i
-        return -1
+        
+         result = len(s)
+
+         for i in 'abcdefghijklmnopqrstuvwxyz' :
+            firstOccurance = s.find(i)
+
+            if firstOccurance != -1 and firstOccurance == s.rfind(i) :
+                if firstOccurance < result :
+                    result = firstOccurance
+                    
+         return result if result != len(s) else -1
